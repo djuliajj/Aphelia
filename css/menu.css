@@ -15,14 +15,51 @@ div#menuhorizontal li {
     font-weight: bold;
 }
 
-a {
+div#menuhorizontal li a {
+    display: inline-block;
+    color: #e38f1a;
+    text-align: center;
+    padding: 14px 16px;
     text-decoration: none;
-    color: black;
-    padding: 10px 15px;
-    border-radius: 5px;
-    transition: background 0.3s;
+    font-family: 'Lato', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: large;
 }
 
-a:hover {
-    background: lightgray;
+div#menuhorizontal li a:hover, .dropdown:hover {
+    background-color: #f9daae;
+}
+
+div#menuhorizontal li.dropdown {
+    display: inline-block;
+}
+
+div#menuhorizontal .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px #f9daae;
+    z-index: 1;
+}
+
+div#menuhorizontal .dropdown-content a {
+    color: #e38f1a;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+div#menuhorizontal .dropdown-content a:hover {
+    background-color: #f9daae;
+}
+
+div#menuhorizontal .dropdown:hover .dropdown-content {
+    display: block;
+}
+
+div#menuhorizontal img {
+    float: left;
 }
