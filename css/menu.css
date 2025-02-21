@@ -1,4 +1,4 @@
-.cabecalho > div#menuhorizontal ul {
+.cabecalho > #menuhorizontal ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -9,13 +9,13 @@
     gap: 20px;
 }
 
-cabecalho > div#menuhorizontal li {
+.cabecalho > #menuhorizontal li {
     float: right;
     font-size: 18px;
     font-weight: bold;
 }
 
-cabecalho> div#menuhorizontal li a {
+.cabecalho > #menuhorizontal li a {
     display: inline-block;
     color: #e38f1a;
     text-align: center;
@@ -31,7 +31,7 @@ cabecalho> div#menuhorizontal li a {
     background-color: #f9daae;
 }
 
-.cabecalho > div#menuhorizontal li.dropdown {
+.cabecalho > #menuhorizontal li.dropdown {
     display: inline-block;
 }
 
@@ -52,19 +52,19 @@ cabecalho> div#menuhorizontal li a {
     text-align: center;
 }
 
-.cabecalho > div#menuhorizontal .dropdown-content a:hover {
+.cabecalho > #menuhorizontal .dropdown-content a:hover {
     background-color: #f9daae;
 }
 
-.cabecalho > div#menuhorizontal .dropdown:hover .dropdown-content {
+.cabecalho > #menuhorizontal .dropdown:hover .dropdown-content {
     display: block;
 }
 
-.cabecalho > div#menuhorizontal img {
+.cabecalho > #menuhorizontal img {
     float: left;
 }
 
-.cabecalho > div#menuhorizontal > nav.image_gradient {
+.cabecalho {
     background-image: url("imagem/capacete.jpg");
     background-color: #cccccc;
     height: 500px;
