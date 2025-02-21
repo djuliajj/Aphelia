@@ -1,11 +1,9 @@
-#menu-container {
+#menuhorizontal {
     width:100%; height: 500px; background-color: #ccc;
     background-image: url(C:\Users\laraj\Downloads\architectural-plans-project-drawing-pen.jpg);
     background-size: cover;
     background-position: center;
 }
-
-
 
 div#menuhorizontal ul {
     list-style-type: none;
