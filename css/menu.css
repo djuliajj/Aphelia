@@ -1,4 +1,4 @@
-.cabecalho > #menuhorizontal ul {
+.cabecalho > div#menuhorizontal ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -9,13 +9,13 @@
     gap: 20px;
 }
 
-.cabecalho > #menuhorizontal li {
+.cabecalho > div#menuhorizontal li {
     float: right;
     font-size: 18px;
     font-weight: bold;
 }
 
-.cabecalho > #menuhorizontal li a {
+.cabecalho > div#menuhorizontal li a {
     display: inline-block;
     color: #e38f1a;
     text-align: center;
@@ -27,15 +27,15 @@
     font-size: large;
 }
 
-.cabecalho > #menuhorizontal li a:hover, .dropdown:hover {
+.cabecalho > div#menuhorizontal li a:hover, .dropdown:hover {
     background-color: #f9daae;
 }
 
-.cabecalho > #menuhorizontal li.dropdown {
+.cabecalho > div#menuhorizontal li.dropdown {
     display: inline-block;
 }
 
-.cabecalho > #menuhorizontal .dropdown-content {
+.cabecalho > div#menuhorizontal .dropdown-content {
     display: none;
     position: absolute;
     background-color: #f9f9f9;
@@ -44,7 +44,7 @@
     z-index: 1;
 }
 
-.cabecalho > #menuhorizontal .dropdown-content a {
+.cabecalho > div#menuhorizontal .dropdown-content a {
     color: #e38f1a;
     padding: 12px 16px;
     text-decoration: none;
@@ -52,15 +52,15 @@
     text-align: center;
 }
 
-.cabecalho > #menuhorizontal .dropdown-content a:hover {
+.cabecalho > div#menuhorizontal .dropdown-content a:hover {
     background-color: #f9daae;
 }
 
-.cabecalho > #menuhorizontal .dropdown:hover .dropdown-content {
+.cabecalho > div#menuhorizontal .dropdown:hover .dropdown-content {
     display: block;
 }
 
-.cabecalho > #menuhorizontal img {
+.cabecalho > div#menuhorizontal img {
     float: left;
 }
 
