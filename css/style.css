@@ -1,0 +1,17 @@
+.cabecalho {
+    width:100%; height: 600px; background-color: #ccc;
+    background-image: url(../imagens/capacete.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.cabecalho > h2 {
+    font-size: x-large; color: #fdc26f; font-weight: 900; font-family: 'Lato', serif;
+    position: absolute; left: 0; top: 0; width: 100%; height: 600px;
+    padding: 30px;
+    background-image: linear-gradient(to right,
+    rgba(0,0,0,1),
+    rgba(0,0,0,.7),
+    rgba(0,0,0,.4),
+    rgba(0,0,0,0));
+}

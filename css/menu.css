@@ -1,10 +1,3 @@
-#menuhorizontal {
-    width:100%; height: 500px; background-color: #ccc;
-    background-image: url(../imagens/capacete.jpg);
-    background-size: cover;
-    background-position: center;
-}
-
 div#menuhorizontal ul {
     list-style-type: none;
     margin: 0;
