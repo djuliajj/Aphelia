@@ -64,7 +64,7 @@ div#menuhorizontal img {
     float: left;
 }
 
-nav.image_gradient {
+div#menuhorizontal > nav.image_gradient {
     background-image: url("imagem/capacete.jpg");
     background-color: #cccccc;
     height: 500px;
