@@ -63,3 +63,14 @@ div#menuhorizontal .dropdown:hover .dropdown-content {
 div#menuhorizontal img {
     float: left;
 }
+
+nav.image_gradient {
+    background-image: url("imagem/capacete.jpg");
+    background-color: #cccccc;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    opacity: 40%;
+}
